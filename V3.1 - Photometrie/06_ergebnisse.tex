@@ -75,30 +75,31 @@ s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}
 %	\end{footnotesize}
 
 \textbf{Berechnung der relativen Standardabweichung:}
-
 \begin{flalign}\label{gl:S_rel}
 	s_{rel}&=\frac{s}{\bar{x}}\\
 	&=\frac{\SI{0,19}{\milli\gram\per\liter}}{\SI{0,69}{\milli\gram\per\liter}}\\
 	&=\underline{28\%}
 \end{flalign}
 
-\textbf{Berechnung des Vertrauensintervalls:}\\
+\textbf{Berechnung des Vertrauensintervalls:}
 \begin{flalign}
 conf(\bar{x}) 	&= \bar{x}\pm \frac{t}{\sqrt{N}}*s				\\
 conf(\bar{x})	&= \SI{0,69}{\milli \gram \per \liter}\pm \frac{4,303}{\sqrt{3}}*\SI{0,19}{\milli \gram \per \liter}\\
-&= \underline{\underline{\SI{0,69}{\milli \gram \per \liter}\pm \SI{0,47}{\milli \gram \per \liter}}}
+&= \underline{\SI{0,69}{\milli \gram \per \liter}\pm \SI{0,47}{\milli \gram \per \liter}}
 \end{flalign}
 
 \textbf{Grenzwerttest für Trinkwasser (\SI{0,5}{\milli \gram \per \liter} \ce{NH4+}):}\label{sec:GWtest}
 \begin{flalign}
 t_{\text{EMP},95}&=\frac{\left|\bar{x}-x_{Grenz}\right|}{s}*\sqrt{N}\\[2mm]
 &=\frac{\SI{0,69}{\milli\gram\per\liter}-\SI{0,50}{\milli\gram\per\liter}}{\SI{0,47}{\milli\gram\per\liter}}*\sqrt{3}\\
-&= 1,73
+&= \underline{1,73}
 \end{flalign}
+%\newpage
 Der tabellierte Wert für $t_{\text{CRIT}}$ für einen einseitigen Test mit einer Sicherheit von 95\% bei einem Freiheitsgrad von 2 lautet 2,920.\\
 Um mit 95\% Sicherheit sagen zu können, dass der Messwert unterhalb des Grenzwertes liegt gilt folgendes Kriterium:
+\vspace{-5mm}
 \begin{flalign}
 	t_{\text{EMP}} &< -t_{\text{CRIT}} \\
 	1,73			&< -2,92 \tag{falsche Aussage}
-\end{flalign} 
+\end{flalign}\vspace{-2mm} 
 Somit liegt der Messwert laut statistischer Auswertung nicht unterhalb der einzuhaltenden Höchstkonzentration von Trinkwasser.
