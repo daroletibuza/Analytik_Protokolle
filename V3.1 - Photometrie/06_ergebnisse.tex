@@ -26,10 +26,8 @@
 \textbf{Berechnung der Standardabweichung:}
 \begin{flalign}\label{Gl:Standardabweichung-Beispielrechnung}
 s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}
-\end{flalign}
-%	\begin{footnotesize}
-\begin{flalign}
-s &= \sqrt{\frac{(0,594\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2+(0,914\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2+(0,575\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2}{2}}\\
+\\
+&= \sqrt{\frac{(0,594\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2+(0,914\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2+(0,575\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2}{2}}\\
 &= \underline{0,19\si{\milli\gram\per\liter}}
 \end{flalign}
 %	\end{footnotesize}
@@ -44,9 +42,7 @@ s &= \sqrt{\frac{(0,594\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter
 
 \textbf{Berechnung des Vertrauensintervalls:}\\
 \begin{flalign}
-conf(\bar{x}) 	&= \bar{x}\pm \frac{t}{\sqrt{N}}*s				
-\end{flalign}
-\begin{flalign}
+conf(\bar{x}) 	&= \bar{x}\pm \frac{t}{\sqrt{N}}*s				\\
 conf(\bar{x})	&= \SI{0,0407}{\percent}\pm \frac{3,182}{\sqrt{4}}*\SI{0,0030}{\percent}\\
 &= \underline{\SI{0,0407}{\percent}\pm \SI{0,0048}{\percent}}
 \end{flalign}
