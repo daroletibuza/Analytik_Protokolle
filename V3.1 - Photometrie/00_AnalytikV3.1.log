@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  16 JUN 2020 13:22
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.18)  16 JUN 2020 14:44
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2092,6 +2096,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 2--74
 
 
 
+<<<<<<< Updated upstream
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos.jpg>]
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 192.
 
@@ -2102,16 +2107,22 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@toc=\write5
 \openout5 = `00_AnalytikV3.1.toc'.
 
+=======
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logos.jpg>
+]
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+92.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(00_AnalytikV3.1.toc)
+\tf@toc=\write4
+\openout4 = `00_AnalytikV3.1.toc'.
+>>>>>>> Stashed changes
 
 (./03_aufgabenstellung.tex [1
 
 ]
-Underfull \hbox (badness 1178) in paragraph at lines 5--8
-\T1/lmr/m/n/10.95 ent-zie-hen die Ammonium-Ionen, durch den Pro-zess der Ni-tri
--fi-ka-ti-on [],
- []
-
-
 Underfull \hbox (badness 1728) in paragraph at lines 5--8
 \T1/lmr/m/n/10.95 wie un-be-las-te-te Ober-flä-chen-ge-wäs-ser, Klär-an-la-gena
 b-läu-fe oder Trink-was-ser ge-wis-se
@@ -2122,6 +2133,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
+<<<<<<< Updated upstream
 ) (./04_physik.tex
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 11.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
@@ -2132,6 +2144,38 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 ) (./04_geraete.tex [2]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 10.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+=======
+) (04_physik.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+\T1/lmr/m/n/10.95 Wel-len-län-ge.
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 5--8
+\T1/lmr/m/n/10.95 Die An-wen-dung des \T1/lmr/m/sc/10.95 Lambert-Beer\T1/lmr/m/
+n/10.95 'sche Ge-set-zes setzt da-bei mo-no-chro-ma-ti-sches
+ []
+
+[2]
+Underfull \hbox (badness 3590) in paragraph at lines 23--24
+\T1/lmr/m/n/10.95 dann der sen-si-ti-ven Wel-len-län-ge für die pho-to-me-tri-s
+che Un-ter-su-chung. Da die
+ []
+
+) (04_geraete.tex [3]
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 7
+.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 7.
+)
+(05_durchfuerung.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
+.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+>>>>>>> Stashed changes
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )) (./05_durchfuerung.tex)
 Underfull \hbox (badness 1331) in paragraph at lines 3--206
@@ -2139,42 +2183,51 @@ Underfull \hbox (badness 1331) in paragraph at lines 3--206
  über die Ofen-tech-nik der
  []
 
+<<<<<<< Updated upstream
 (./06_ergebnisse.tex [3]
 Overfull \hbox (4.09787pt too wide) in paragraph at lines 37--37
+=======
+(06_ergebnisse.tex [4]
+Overfull \hbox (4.09787pt too wide) in paragraph at lines 48--48
+>>>>>>> Stashed changes
  []\T1/lmr/m/n/10.95 8,36%| 
  []
 
 
-Overfull \hbox (0.76677pt too wide) in paragraph at lines 71--71
+Overfull \hbox (0.76677pt too wide) in paragraph at lines 82--82
  []\T1/lmr/m/n/10.95 0,00925| 
  []
 
 
-Overfull \hbox (3.83398pt too wide) in paragraph at lines 71--71
+Overfull \hbox (3.83398pt too wide) in paragraph at lines 82--82
  []\T1/lmr/m/n/10.95 138,55%| 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5]
-Underfull \hbox (badness 4242) in paragraph at lines 189--192
+[5] [6] [7]
+Underfull \hbox (badness 4242) in paragraph at lines 200--203
 \T1/lmr/m/n/10.95 Die ma-nu-el-le Be-rech-nung der re-la-ti-ven Stan-dard-ab-we
 i-chung er-folgt ana-log der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 207--214
-\T1/lmr/m/n/10.95 Beispielhaft wird nach-fol-gend in Glei-chung (11) die ma-nu-
+Underfull \hbox (badness 4036) in paragraph at lines 218--225
+\T1/lmr/m/n/10.95 Beispielhaft wird nach-fol-gend in Glei-chung (13) die ma-nu-
 el-le Be-rech-nung des
  []
 
+<<<<<<< Updated upstream
 ) (./07_diskussion.tex [6]
+=======
+) (07_diskussion.tex [8]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
@@ -2184,13 +2237,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
+<<<<<<< Updated upstream
 ) (./011_fehlerbetrachtung.tex [7])
+=======
+) (011_fehlerbetrachtung.tex [9])
+>>>>>>> Stashed changes
 Underfull \hbox (badness 2762) in paragraph at lines 14--212
 []\T1/lmr/m/n/10.95 Insgesamt ist es rat-sam den Ver-such er-neut durch-zu-füh-
 ren, um die mög-li-chen
  []
 
-[8]
+[10]
 \openout2 = `09_anhang.aux'.
 
  (./09_anhang.tex)
@@ -2215,7 +2272,7 @@ Underfull \hbox (badness 3364) in paragraph at lines 65--71
 lmr/m/it/10.95 Was-ser-auf-nah-me -- Le-xi-kon der
  []
 
-)) [9
+)) [11
 
 
 
@@ -2229,6 +2286,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 219.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  43821 strings out of 493029
  988457 string characters out of 6136234
  1194854 words of memory out of 5000000
@@ -2257,4 +2315,78 @@ PDF statistics:
  92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 48170 strings out of 492452
+ 1089397 string characters out of 3129810
+ 1378708 words of memory out of 3000000
+ 51770 multiletter control sequences out of 15000+200000
+ 623130 words of font info for 79 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 64i,23n,103p,10076b,1188s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.6} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.
+enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program F
+iles/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 00_AnalytikV3.1.pdf (12 pages, 559756 bytes).
+PDF statistics:
+ 192 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 
