@@ -16,9 +16,10 @@ Warning--I didn't find a database entry for "isoprop"
 Warning--I didn't find a database entry for "Wikipedia.2020"
 Warning--I didn't find a database entry for "Kaiser.2006"
 Warning--I didn't find a database entry for "polymermerse"
+Warning--I didn't find a database entry for "online"
 You've used 0 entries,
             4011 wiz_defined-function locations,
-            785 strings with 5469 characters,
+            786 strings with 5475 characters,
 and the built_in function-call counts, 34 in all, are:
 = -- 0
 > -- 0
@@ -57,4 +58,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 7
-(There were 5 warnings)
+(There were 6 warnings)
