@@ -1,18 +1,60 @@
 \newpage
 
-\vspace*{10mm}
-
-\textbf{\textcolor{red}{Aufgaben:}}
-\textcolor{red}{
-	\begin{itemize}
-		\item Verdünnungsrechnung
-		\item Aufpassen bei Konzentrationsangaben wegen Runden
-	\end{itemize}
-}
-
 \section{Ergebnisse und Berechnungen}
 \label{sec:ergebnisse}
 
+\begin{figure}[h!]
+	\begin{center}
+		\resizebox{0.9\textwidth}{!}{
+			\begin{tikzpicture}[trim axis left, trim axis right]
+			\begin{axis}[
+			axis lines = left,
+			width = 15cm,
+			height = 11cm,
+			xmin = 0,
+			xmax = 3,
+			%	ymin = -0.1,
+			%	ymax = 0,
+			%	ytick = {-4.5,-4,...,-1},
+		%	xtick = {-10,-9,...,20},
+			ylabel={Absorbanz},
+			%y label style={at={(0.25,0.40)}, rotate=90},
+			xlabel={Ammonium-Konzentration \si{\milli \gram \per \milli \liter}},
+			legend style={at={(0.75,0.45)},anchor=west},
+		%	y dir = reverse,
+			]
+			\addplot +[only marks,mark options={draw=black,fill=black}] table {data/kalibriergerade.dat};
+			\addplot +[mark=none, dashed, black, domain=0.5:3] {0.106175439*x-0.034070175	
+			};
+			
+			\legend{Kalibrierpunkte, Kalibriergerade};
+			\end{axis}
+			\end{tikzpicture}
+		}
+			\caption{Absorbanz in Abhängigkeit der Ammonium-Konzentration}
+		\label{dia:kalibrierung}
+	\end{center}
+\end{figure}
+\FloatBarrier
+\vspace*{-5mm}
+
+\textbf{Berechnung der Ammonium-Konzentration aus der Kalibriergeraden}
+\begin{flalign}
+		A 			&= f(c_{\ce{NH4+}}) = 0,106*c_{\ce{NH4+}}-0,034\\[1mm]
+	c_{\ce{NH4+}} 	&= \frac{A+0,034}{0,106} \,\si{\milli \gram \per \liter}\\
+					&= \frac{0,029+0,034}{0,106} \,\si{\milli \gram \per \liter}\\
+					&= \underline{\SI{0,59}{\milli \gram \per \liter}}
+\end{flalign}
+
+
+\textbf{Berechnung der Konzentration von Stickstoff aus der Ammonium-Konzentration}
+\begin{flalign}
+ c_{\ce{N}}	 	&= n\%_{\ce{N}} *c_{\ce{NH4+}}\\
+ 				&= \frac{M_{\ce{N}}}{_{\ce{NH4+}}}*c_{\ce{NH4+}}\\
+ 				&= \frac{\SI{14,00067}{\gram \per \mol}}{\SI{18,03846}{\gram \per \mol}}*\SI{0,69}{\milli \gram \per \liter}\\
+ 				&= 0,78*\SI{0,69}{\milli \gram \per \liter}\\
+ 				&=\underline{ \SI{0,54}{\milli \gram \per \liter}}
+\end{flalign}
 
 \textbf{Berechnung des Mittelwertes:}
 \begin{flalign}
@@ -27,7 +69,7 @@
 \begin{flalign}\label{Gl:Standardabweichung-Beispielrechnung}
 s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}
 \\
-&= \sqrt{\frac{(0,594\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2+(0,914\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2+(0,575\si{\milli\gram\per\liter}-0,694\si{\milli\gram\per\liter})^2}{2}}\\
+&= \sqrt{\frac{(0,59\si{\milli\gram\per\liter}-0,69\si{\milli\gram\per\liter})^2+(0,91\si{\milli\gram\per\liter}-0,69\si{\milli\gram\per\liter})^2+(0,58\si{\milli\gram\per\liter}-0,69\si{\milli\gram\per\liter})^2}{2}}\\
 &= \underline{0,19\si{\milli\gram\per\liter}}
 \end{flalign}
 %	\end{footnotesize}
@@ -43,21 +85,20 @@ s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}
 \textbf{Berechnung des Vertrauensintervalls:}\\
 \begin{flalign}
 conf(\bar{x}) 	&= \bar{x}\pm \frac{t}{\sqrt{N}}*s				\\
-conf(\bar{x})	&= \SI{0,0407}{\percent}\pm \frac{3,182}{\sqrt{4}}*\SI{0,0030}{\percent}\\
-&= \underline{\SI{0,0407}{\percent}\pm \SI{0,0048}{\percent}}
+conf(\bar{x})	&= \SI{0,69}{\milli \gram \per \liter}\pm \frac{4,303}{\sqrt{3}}*\SI{0,19}{\milli \gram \per \liter}\\
+&= \underline{\underline{\SI{0,69}{\milli \gram \per \liter}\pm \SI{0,47}{\milli \gram \per \liter}}}
 \end{flalign}
 
-\textbf{Manuelle Bestimmung des Wassergehaltes:}\\
-Beispielhaft wird nachfolgend in Gleichung (\ref{gl:wassergehalt}) die manuelle Berechnung des Wassergehaltes der flüssigen Probe Isopropanol dargestellt. Dazu wurden Messwerte der Tabelle \ref{tab:MesswerteIsopropanol} für die Berechnung verwendet. Für den Titer wurde der Mittelwert aus Tabelle \ref{tab:MesswerteTiterbestimmung} genutzt.
-%Aus dem Vorgängerprotokoll___Eiheiten sind totaler schwachsinn!
-%\begin{flalign}\label{gl:wassergehalt}
-%	Wassergehalt &= \frac{V_{EQ}*f+DriftV*t}{m_{Probe}}\\
-%	&= \frac{\SI{0,00925}{\milli\liter}*1,045+\SI{5,5}{\micro\liter\per\minute}*\SI{1,18}{\minute}}{\SI{0,4037}{\gram}}\\
-%\end{flalign}
-
-\begin{flalign}\label{gl:wassergehalt}
-	W [\%]&=\frac{(V_{EQ}+t*DRIFTV)*\bar{c}+DRIFT*t}{m_{Probe}}\\[2mm]
-	&=\frac{(\SI{0,00925}{\milli\liter}+\SI{1,18}{\minute}*\SI{5,5}{\micro\liter\per\minute})*\SI{5,22732}{\milli\gram\per\milli\liter}
-		+\SI{28,6}{\micro\gram\per\minute}*\SI{1,18}{\minute}}{\SI{0,4037}{\gram}}*100\%\\
-	&=\underline{\underline{0,029\%}}
+\textbf{Grenzwerttest für Trinkwasser (\SI{0,5}{\milli \gram \per \liter} \ce{NH4+}):}
+\begin{flalign}
+t_{\text{EMP},95}&=\frac{\left|\bar{x}-x_{Grenz}\right|}{s}*\sqrt{N}\\[2mm]
+&=\frac{\SI{0,69}{\milli\gram\per\liter}-\SI{0,50}{\milli\gram\per\liter}}{\SI{0,47}{\milli\gram\per\liter}}*\sqrt{3}\\
+&= 1,73
 \end{flalign}
+Der tabellierte Wert für $t_{\text{CRIT}}$ für einen einseitigen Test mit einer Sicherheit von 95\% bei einem Freiheitsgrad von 2 lautet 2,920.\\
+Um mit 95\% Sicherheit sagen zu können, dass der Messwert unterhalb des Grenzwertes liegt gilt folgendes Kriterium:
+\begin{flalign}
+	t_{\text{EMP}} &< -t_{\text{CRIT}} \\
+	1,73			&< -2,92 \tag{falsche Aussage}
+\end{flalign} 
+Somit liegt der Messwert laut statistischer Auswertung nicht unterhalb der einzuhaltenden Höchstkonzentration von Trinkwasser.

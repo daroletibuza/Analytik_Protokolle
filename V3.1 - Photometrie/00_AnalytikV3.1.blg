@@ -1,60 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: 00_AnalytikV3.1.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: 00_AnalytikV3.1.aux
 A level-1 auxiliary file: 01_titel.aux
 A level-1 auxiliary file: 09_anhang.aux
 A level-1 auxiliary file: 08_literatur.aux
 The style file: unsrtdin.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+I found no \citation commands---while reading file 00_AnalytikV3.1.aux
 Database file #1: Literatur.bib
-Warning--I didn't find a database entry for "isopropanol"
-Warning--I didn't find a database entry for "isoprop"
-Warning--I didn't find a database entry for "Wikipedia.2020"
-Warning--I didn't find a database entry for "Kaiser.2006"
-Warning--I didn't find a database entry for "polymermerse"
-You've used 0 entries,
-            4011 wiz_defined-function locations,
-            785 strings with 5469 characters,
-and the built_in function-call counts, 34 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 10
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
-int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 10
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 1
-stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 7
-(There were 5 warnings)
+(There was 1 error message)
