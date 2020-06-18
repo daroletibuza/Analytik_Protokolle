@@ -8,14 +8,15 @@
 		\resizebox{0.9\textwidth}{!}{
 			\begin{tikzpicture}[trim axis left, trim axis right]
 			\begin{axis}[
-			axis lines = left,
+			axis lines=middle, 
+			extra y ticks={0},            
 			width = 15cm,
 			height = 11cm,
 			xmin = 0,
-			xmax = 3,
-			%	ymin = -0.1,
-			%	ymax = 0,
-			%	ytick = {-4.5,-4,...,-1},
+			xmax = 3.5,
+			ymin = -0.1,
+			ymax = 0.4,
+			ytick = {-0.1,-0.05,0,...,0.4},
 		%	xtick = {-10,-9,...,20},
 			ylabel={Absorbanz},
 			%y label style={at={(0.25,0.40)}, rotate=90},
@@ -24,7 +25,7 @@
 		%	y dir = reverse,
 			]
 			\addplot +[only marks,mark options={draw=black,fill=black}] table {data/kalibriergerade.dat};
-			\addplot +[mark=none, dashed, black, domain=0.5:3] {0.106175439*x-0.034070175	
+			\addplot +[mark=none, dashed, black, domain=0:3.5] {0.106175439*x-0.034070175	
 			};
 			
 			\legend{Kalibrierpunkte, Kalibriergerade};
@@ -90,7 +91,7 @@ conf(\bar{x})	&= \SI{0,69}{\milli \gram \per \liter}\pm \frac{4,303}{\sqrt{3}}*\
 
 \textbf{Grenzwerttest für Trinkwasser (\SI{0,5}{\milli \gram \per \liter} \ce{NH4+}):}\label{sec:GWtest}
 \begin{flalign}
-t_{\text{EMP},95}&=\frac{\left|\bar{x}-x_{Grenz}\right|}{s}*\sqrt{N}\\[2mm]
+t_{\text{EMP},95}&=\frac{\bar{x}-x_{Grenz}}{s}*\sqrt{N}\\[2mm]
 &=\frac{\SI{0,69}{\milli\gram\per\liter}-\SI{0,50}{\milli\gram\per\liter}}{\SI{0,47}{\milli\gram\per\liter}}*\sqrt{3}\\
 &= \underline{1,73}
 \end{flalign}
