@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  29 JUN 2020 23:09
 =======
@@ -7,6 +8,9 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preload
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  29 JUN 2020 17:52
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  29 JUN 2020 23:43
+>>>>>>> Versuch3.3
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2306,31 +2310,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-
-LaTeX Warning: Reference `tab:stat_oQ_c' on page 8 undefined on input line 175.
-
-
 [8]) (07_diskussion.tex [9]) (011_fehlerbetrachtung.tex) [10]
 \openout2 = `09_anhang.aux'.
 
  (09_anhang.tex
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.16  	\end{tabulary}}
-                      
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
+Overfull \hbox (28.4526pt too wide) in paragraph at lines 11--21
+ [][] 
+ []
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.16  	\end{tabulary}}
-                      
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
+
+Overfull \hbox (28.4526pt too wide) in paragraph at lines 30--40
+ [][] 
+ []
+
+
+Overfull \hbox (28.4526pt too wide) in paragraph at lines 49--59
+ [][] 
+ []
+
+
+Overfull \hbox (28.4526pt too wide) in paragraph at lines 68--78
+ [][] 
+ []
 
 ) [11
 
@@ -2348,17 +2349,21 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 219.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
  39698 strings out of 480763
  934530 string characters out of 2903973
  1411005 words of memory out of 3000000
  54920 multiletter control sequences out of 15000+200000
+=======
+ 39715 strings out of 480763
+ 934646 string characters out of 2903973
+ 1420314 words of memory out of 3000000
+ 54937 multiletter control sequences out of 15000+200000
+>>>>>>> Versuch3.3
  662641 words of font info for 112 fonts, out of 3000000 for 9000
 =======
 <<<<<<< Updated upstream
@@ -2420,7 +2425,7 @@ lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy8.pfb>
-Output written on 00_AnalytikV3.3.pdf (12 pages, 530274 bytes).
+Output written on 00_AnalytikV3.3.pdf (12 pages, 532234 bytes).
 PDF statistics:
  174 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
