@@ -1,18 +1,44 @@
 \section{Theorie}
 \label{sec:theorie}
 
-\subsection{Art der Titration}
-Die in diesem Versuch angewendete Art der Titration ist eine Redoxtitration. Redoxtitration zeichnen sich dadurch aus, dass sie auf einer Redoxreaktion beruhen. Redoxreaktionen sind die chemische Reaktion mit Elektronenübergang bei der ein Oxidationsmittel mit einem Reduktionsmittel reagiert.\cite{redoxreaktion} Bei einer Titration handelt es sich um eine Methode zur quantitativen Analyse einer Probe. Es wird die Konzentration eines Analyten bestimmt, indem dieser mit dem zudosierten Titriermittel zur Reaktion gebracht wird.\cite{titration} Die bekannte Konzentration des Titriermittels erlaubt anschließend, unter Annahme eines vollständigen Stoffumsatzes, die Berechnung der ursprünglichen Analytkonzentration. Der Punkt, an welchem die Reaktion des Titriermittels mit dem Analyten abgeschlossen ist, heißt Äquivalenzpunkt und kann auf eine Vielzahl von Wegen erkannt werden. Im hier betrachteten Falle kommt die bivoltametrische Indikation zum Einsatz. Deren Funktion ist  im Kapitel  \ref{sec:unterschiedBivoltBiamp} in aller Kürze dargestellt.
-\subsection{Konkrete chemische Reaktion}
-Die hier angewendete Redoxreaktion beruht auf der Reduktion von Iod. Daher auch der Name Iodometrie. Die Zusammengefasste Reaktionsgleichung ist als Gleichung (\ref{gl:gesamtreaktion}) nachfolgend aufgeführt. Dabei steht RN stellvertretend für die organische Base Imidazol. 
-\begin{equation}\label{gl:gesamtreaktion}
-	\ce{I2 + SO2 + 3 RN + CH3OH + H2O -> 2RN*HI + RN*HSO4CH3}
-\end{equation}
-Die zugrundeliegende Redoxreaktion ist in Gleichung (\ref{gl:kernreaktion}) dargestellt. Aus ihr geht der Zusammenhang zwischen dem Vorhandensein von Wasser und der Reduktion des Iodes hervor.
-\begin{equation}\label{gl:kernreaktion}
-	\ce{SO3^2- +I2 +H2O -> SO4^2- + 2H^+ +2I-}
-\end{equation}
-\subsection{Unterschied zwischen biamperometrischer und bivoltametrischer Titration}\label{sec:unterschiedBivoltBiamp}
+\subsection*{\textsc{Lambert-Beer}'sches Gesetz}
+Die Grundlage für die photometrische Bestimmung von Konzentrationen liegt stellt das \textsc{Lambert-Beer}'sche Gesetz dar. Dieses beschreibt den proportionalen Zusammenhang zwischen der Absorbanz $A$ und den Variablen in Form von der Küvettenschichtdicke $d$ und der Stoffmengenkonzentration $c$. Die Proportionalitätskonstante wird in diesem Fall mit dem Absorptionskoeffizienten $\alpha$ beschrieben. 
+\begin{flalign}
+\label{gl:abs}
+A	&= \alpha*c*d
+\end{flalign}
+Die Absorbanz definiert sich hierbei ebenfalls durch den negativen dekadischen Logarithmus des Transmissionsgrades $T$ bzw. dem Verhältnis der gemessenen Intensität $I$ zur Ausgangsintensität $I_0$. Die Lichtquelle der erzeugten Intensität sendet hierbei monochromatisches Licht aus.\\
+Beschrieben werden diese Zusammenhänge in den Gleichungen Gl.\eqref{gl:abs} und Gl.\eqref{gl:trans}.
+\begin{flalign}
+\label{gl:trans}
+T	&= \frac{I}{I_0} =10^{-A}
+\end{flalign}
 
-Die Biamperometrie beruht auf der Messung des fließenden Stromes bei konstanter Spannung. Bei der Bivoltametrie ist es genau umgekehrt. Die Spannung wird bei konstanter Stromstärke gemessen.\cite{biamperometrie}\cite{bivoltametrie}
+\subsection*{Lineare Kalibrierung}
+Um eine lineare Kalibrierung mit dem \textsc{Lambert-Beer}'schen Gesetz aufstellen zu können, ist es nötig die Grundgleichung (Gl.\eqref{gl:abs}) dementsprechend anzupassen. Hierfür werden weitere Größen eingeführt bzw. das \textsc{Lambert-Beer}'sche Gesetz umgeformt. Die Signalgröße $Y$ entspricht dabei dem Verhältnis zwischen Absorbanz $A$ und der Schichtdicke der Küvette $d$. Die Proportionalitätskonstante entspricht nun der Empfindlichkeit der Methode $a$.
+\begin{flalign}
+\tag*{| : d}
+	A&= \alpha*c*d\\
+	Y&=\frac{A}{d}= a *c
+\end{flalign}
+Zusätzlich  wird die Fehlergröße $E$ additiv hinzugefügt.
+\begin{flalign}
+	Y&=a *c+E
+\end{flalign}
+Diese Fehlergröße $E$ unterliegt der Annahme, dass durch eine weitere Komponente mit einer Konzentration $X_2$ ebenfalls monochromatisches Licht der Wellenlänge $\lambda_1$ der Komponente 1 absorbiert. Für Signalgröße $Y{\lambda_1}$ ergibt sich daraus:
+\begin{flalign}
+	Y(\lambda_1)	&= a_1(\lambda_1)*X_1+a_2(\lambda_2)*X_2
+\end{flalign}
 
+Um die nötigen Empfindlichkeiten $a_1$ und $a_2$ zu bestimmen sind weitere Messschritte erforderlich. So müssen die Wellenlänge $\lambda_{1,\text{max}}$ und $\lambda_{2,\text{max}}$ bestimmt werden, bei welchen die einzelnen Komponenten die maximale Absorbanz aufzeigen. Dies erfolgt mittels Spektroskopie. In Folge dessen lässt ein Gleichungssystem für bis zu zwei Komponenten oder eine Matrix für mehr als zwei Komponenten aufstellen, welche es mittels mathematischen Handwerk zu lösen gilt. Für die Wellenlängen $\lambda_1$ und $\lambda_2$ ergibt sich daraus ein lineares Gleichungssystem der Form:
+\begin{flalign}
+\label{gl:lgs1}
+	Y_1(\lambda_1) &= a_{11}*X_1+a_{12}*X_2
+\end{flalign}
+\begin{flalign}
+\label{gl:lgs2}
+Y_1(\lambda_2) &= a_{21}*X_1+a_{22}*X_2
+\end{flalign}
+
+Zur Vereinfachung der Kalibration werden die Empfindlichkeiten für den Einkomponentenfall mit den Empfindlichkeiten im Zweikomponentenfall gleichgesetzt.
+Im weiteren Vorgehen werden die Kalibriergeraden mit Hilfe von Validierlösungen überprüft. Diese beinhalten bekannte Konzentrationen an Kaliumpermanganat und Kaliumdichromat. Nach erfolgreicher Validierung der Kalibrierkurven kann infolgedessen mit der photometrischen Bestimmung der Probenkonzentrationen $X_1$ und $X_2$ begonnen werden. Für die Umrechnung der jeweiligen Absorbanz in  die Konzentration ist die Lösung des Gleichungssystems aus Gl. \eqref{gl:lgs1} und Gl.\eqref{gl:lgs2} nötig.
