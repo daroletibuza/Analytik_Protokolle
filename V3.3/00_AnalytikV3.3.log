@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  29 JUN 2020 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.18)  29 JUN 2020 18:25
 entering extended mode
 **./00_AnalytikV3.3.tex
 (00_AnalytikV3.3.tex
@@ -1537,11 +1537,53 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
 .
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-(05_durchfuerung.tex)
-Underfull \hbox (badness 1331) in paragraph at lines 3--206
-\T1/lmr/m/n/10.95 Im zwei-ten Ver-suchs-teil wür-de nun ei-ne Fest-stoff-pro-be
- über die Ofen-tech-nik der
+)
+Overfull \hbox (22.6497pt too wide) in paragraph at lines 7--8
+[]\T1/lmr/m/n/10.95 UV-VIS-Spektrophotometer \T1/lmr/m/sc/10.95 GE-NE-SYS 180\T
+S1/lmr/m/sc/10.95 — \T1/lmr/m/n/10.95 von [] 
+ []
+
+) (05_durchfuerung.tex)
+Underfull \hbox (badness 2326) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 Im ers-ten Teil der Ver-suchs-durch-füh-rung wer-den aus den 
+Stan-dard-lö-sun-gen für
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 Im zwei-ten Ver-suchs-teil wird mit der Auf-nah-me von Spek-t
+ren be-gon-nen. Nach
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 der Be-stim-mung der Ba-sis-li-nie mit ei-ner Kü-vet-te, wel-
+che le-dig-lich de-stil-lier-tes
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 Was-ser ent-hält, wird die-se vom Mess-sys-tem au-to-ma-tisch
+ ge-spei-chert. Al-le fol-
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 gen-den Mes-sun-gen wer-den in Re-fe-renz auf die-se Was-ser-
+pro-be hin un-ter-sucht.
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 Um die cha-rak-te-ris-ti-schen Wel-len-län-gen der Permangana
+t-Ions $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 []$ \T1/lmr/m/n/10.95 und des
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 Dichromat-Ions $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 []\O
+T1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 wer-den je-weils die mitt-le-ren Ka-li-br
+ier-lö-sun-gen K2 im
  []
 
 (06_ergebnisse.tex [4]
@@ -1638,11 +1680,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 39185 strings out of 480763
- 920379 string characters out of 2903973
+ 39187 strings out of 480763
+ 920411 string characters out of 2903973
  1411371 words of memory out of 3000000
- 54406 multiletter control sequences out of 15000+200000
- 650267 words of font info for 102 fonts, out of 3000000 for 9000
+ 54407 multiletter control sequences out of 15000+200000
+ 650638 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,23n,103p,10112b,1195s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{section*.8} has been referenced but does not exis
@@ -1676,10 +1718,10 @@ pdfTeX warning (dest): name{section.1} has been referenced but does not exist,
 replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.e
-nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts
+TeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
 lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTe
@@ -1693,9 +1735,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_AnalytikV3.3.pdf (11 pages, 556541 bytes).
+Output written on 00_AnalytikV3.3.pdf (11 pages, 561894 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
+ 178 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
