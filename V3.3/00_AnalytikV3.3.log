@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.30)  30 JUN 2020 15:49
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  30 JUN 2020 15:54
+>>>>>>> Stashed changes
 entering extended mode
 **./00_AnalytikV3.3.tex
 (00_AnalytikV3.3.tex
@@ -1259,7 +1263,11 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language84
 LaTeX Info: Redefining \_ on input line 43.
 )
+<<<<<<< Updated upstream
 (00_AnalytikV3.3.aux (01_titel.aux) (09_anhang.aux))
+=======
+(./00_AnalytikV3.3.aux (./01_titel.aux) (./09_anhang.aux))
+>>>>>>> Stashed changes
 \openout1 = `00_AnalytikV3.3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
@@ -1278,10 +1286,16 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
 LaTeX Font Info:    ... okay on input line 165.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
 LaTeX Font Info:    ... okay on input line 165.
+<<<<<<< Updated upstream
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16
 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
+=======
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 165.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+>>>>>>> Stashed changes
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1532,6 +1546,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 43--1
 -po-nen-ten-fall gleich-ge-setzt.
  []
 
+<<<<<<< Updated upstream
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
 .
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
@@ -1544,6 +1559,23 @@ S1/lmr/m/sc/10.95 — \T1/lmr/m/n/10.95 von []
 
 ) (05_durchfuerung.tex [3])
 Underfull \hbox (badness 2326) in paragraph at lines 4--206
+=======
+[3]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 7.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 7.
+
+Overfull \hbox (25.68918pt too wide) in paragraph at lines 7--8
+[]\T1/lmr/m/n/10.95 UV-VIS-Spektrophotometer \T1/lmr/m/sc/10.95 GE-NE-SYS 180$[
+]$ \T1/lmr/m/n/10.95 von [] 
+ []
+
+) (./05_durchfuerung.tex)
+Underfull \hbox (badness 2326) in paragraph at lines 3--206
+>>>>>>> Stashed changes
 \T1/lmr/m/n/10.95 Im ers-ten Teil der Ver-suchs-durch-füh-rung wer-den aus den 
 Stan-dard-lö-sun-gen für
  []
@@ -1575,10 +1607,12 @@ pro-be hin un-ter-sucht.
 
 Underfull \hbox (badness 2818) in paragraph at lines 4--206
 \T1/lmr/m/n/10.95 Um die cha-rak-te-ris-ti-schen Wel-len-län-gen der Permangana
-t-Ions $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 []$ \T1/lmr/m/n/10.95 und des
+t-Ions $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^U[]$ \T1/lmr/m/n/10.95 und de
+s
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 4686) in paragraph at lines 4--206
 \T1/lmr/m/n/10.95 Dichromat-Ions $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 []\O
 T1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 wer-den je-weils die mitt-le-ren Ka-li-br
@@ -1590,6 +1624,19 @@ Underfull \hbox (badness 2538) in paragraph at lines 68--69
 []\T1/lmr/m/n/10.95 In Ab-bil-dung Abb. 1 sind die ge-mes-se-nen Ab-sor-ban-zen
  von $\OML/lmm/m/it/10.95 []$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/10.95 []$ 
 \T1/lmr/m/n/10.95 über
+=======
+Underfull \hbox (badness 4686) in paragraph at lines 3--206
+\T1/lmr/m/n/10.95 Dichromat-Ions $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^U[]
+\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 wer-den je-weils die mitt-le-ren Ka-li-
+brier-lö-sun-gen K2 im
+ []
+
+(./06_ergebnisse.tex [4]
+Underfull \hbox (badness 2538) in paragraph at lines 68--69
+[]\T1/lmr/m/n/10.95 In Ab-bil-dung Abb. 1 sind die ge-mes-se-nen Ab-sor-ban-zen
+ von $\OML/lmm/m/it/10.95 ^^U[]$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/10.95 ^^U
+[]$ \T1/lmr/m/n/10.95 über
+>>>>>>> Stashed changes
  []
 
 [5]
@@ -1599,8 +1646,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
 
 Underfull \hbox (badness 2951) in paragraph at lines 110--112
-\OML/lmm/m/it/10.95 []$ \T1/lmr/m/n/10.95 mit [][] die Emp-find-lich-keit zwi-
-schen Ab-sor-banz und Kon-zen-tra-ti-on für
+\OML/lmm/m/it/10.95 ^^U[]$ \T1/lmr/m/n/10.95 mit [][] die Emp-find-lich-keit zw
+i-schen Ab-sor-banz und Kon-zen-tra-ti-on für
  []
 
 
@@ -1612,6 +1659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--112
 Underfull \hbox (badness 1400) in paragraph at lines 137--138
 \T1/lmr/m/n/10.95 Kon-zen-tra-tio-nen aus den Ka-li-brier-ge-ra-den be-stimmt. 
 Auf-grund des Ein-flus-ses der
+<<<<<<< Updated upstream
  []
 
 [7]
@@ -1641,6 +1689,8 @@ st die-ser Ein-fluss et-was
 Underfull \hbox (badness 2717) in paragraph at lines 4--210
 \T1/lmr/m/n/10.95 ge-rin-ger als für die Dichromat-Ionen. In bei-den fäl-len so
 ll-te je-doch ei-ne Kor-
+=======
+>>>>>>> Stashed changes
  []
 
 
@@ -1649,6 +1699,7 @@ Underfull \hbox (badness 4792) in paragraph at lines 4--210
 ier-ge-ra-den der un-ter-ein-an-der
  []
 
+<<<<<<< Updated upstream
 
 Underfull \hbox (badness 1803) in paragraph at lines 4--210
 \T1/lmr/m/n/10.95 In die-sem Ver-such zeig-te sich die Mehr-kom-po-nen-ten-pho-
@@ -1656,9 +1707,13 @@ to-me-trie als ei-ne prä-zi-se
  []
 
 [10]
+=======
+[8]) (./07_diskussion.tex [9]) (./011_fehlerbetrachtung.tex) [10]
+>>>>>>> Stashed changes
 \openout2 = `09_anhang.aux'.
 
- (09_anhang.tex
+
+(./09_anhang.tex
 Overfull \hbox (28.4526pt too wide) in paragraph at lines 11--21
  [][] 
  []
@@ -1743,7 +1798,11 @@ Package pdftex.def Info: data/data_v33.pdf , page3 used on input line 81.
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+<<<<<<< Updated upstream
 (00_AnalytikV3.3.aux (01_titel.aux) (09_anhang.aux))
+=======
+(./00_AnalytikV3.3.aux (./01_titel.aux) (./09_anhang.aux))
+>>>>>>> Stashed changes
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 219.
 
@@ -1753,6 +1812,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  39728 strings out of 480763
  934966 string characters out of 2903973
  1420435 words of memory out of 3000000
@@ -1812,4 +1872,32 @@ PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 44394 strings out of 493029
+ 1003896 string characters out of 6136234
+ 1221708 words of memory out of 5000000
+ 47168 multiletter control sequences out of 15000+600000
+ 136002 words of font info for 101 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,25n,108p,10378b,2946s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 00_AnalytikV3.3.pdf (12 pages, 507031 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 
