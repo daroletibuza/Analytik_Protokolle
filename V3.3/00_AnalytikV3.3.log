@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  3 JUL 2020 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  5 JUL 2020 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2105,45 +2105,12 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 192.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./00_AnalytikV3.3.toc
-! Undefined control sequence.
-l.1 \babel@toc
-               {ngerman}{}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 ...n}{\numberline {1}Einleitung}{2}{section.1}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 ...n}{\numberline {1}Einleitung}{2}{section.1}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+) (./00_AnalytikV3.3.toc)
 \tf@toc=\write5
 \openout5 = `00_AnalytikV3.3.toc'.
 
- (./03_aufgabenstellung.tex [1
+
+(./03_aufgabenstellung.tex [1
 
 ]) (./04_physik.tex
 
@@ -2292,77 +2259,92 @@ Overfull \hbox (28.4526pt too wide) in paragraph at lines 68--78
  [][] 
  []
 
-<data/data_v33.pdf, id=59, 597.10236pt x 844.83629pt>
-File: data/data_v33.pdf Graphic file (type pdf)
- <use data/data_v33.pdf>
-Package pdftex.def Info: data/data_v33.pdf used on input line 81.
-(pdftex.def)             Requested size: 597.10089pt x 844.83423pt.
-File: data/data_v33.pdf Graphic file (type pdf)
+<korrigiertesDeckblatt.pdf, id=59, 614.295pt x 869.79826pt>
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf>
-Package pdftex.def Info: data/data_v33.pdf used on input line 81.
-(pdftex.def)             Requested size: 597.10089pt x 844.83423pt.
+<use korrigiertesDeckblatt.pdf>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf used on input line 81.
+(pdftex.def)             Requested size: 614.29349pt x 869.79614pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
+ <use korrigiertesDeckblatt.pdf>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf used on input line 81.
+(pdftex.def)             Requested size: 614.29349pt x 869.79614pt.
 
-<data/data_v33.pdf, id=62, page=1, 597.10236pt x 844.83629pt>
-File: data/data_v33.pdf Graphic file (type pdf)
+<korrigiertesDeckblatt.pdf, id=62, page=1, 614.295pt x 869.79826pt>
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf, page 1>
-Package pdftex.def Info: data/data_v33.pdf, page1 used on input line 81.
-(pdftex.def)             Requested size: 597.10089pt x 844.83423pt.
-File: data/data_v33.pdf Graphic file (type pdf)
- <use data/data_v33.pdf, page 1>
-Package pdftex.def Info: data/data_v33.pdf, page1 used on input line 81.
-(pdftex.def)             Requested size: 597.60199pt x 845.54323pt.
+<use korrigiertesDeckblatt.pdf, page 1>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 614.29349pt x 869.79614pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
+
+<use korrigiertesDeckblatt.pdf, page 1>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
  [11
 
 ]
-File: data/data_v33.pdf Graphic file (type pdf)
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf, page 1>
-Package pdftex.def Info: data/data_v33.pdf, page1 used on input line 81.
-(pdftex.def)             Requested size: 597.60199pt x 845.54323pt.
-File: data/data_v33.pdf Graphic file (type pdf)
- <use data/data_v33.pdf, page 1>
-Package pdftex.def Info: data/data_v33.pdf, page1 used on input line 81.
-(pdftex.def)             Requested size: 597.60199pt x 845.54323pt.
-File: data/data_v33.pdf Graphic file (type pdf)
+<use korrigiertesDeckblatt.pdf, page 1>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf, page 1>
-Package pdftex.def Info: data/data_v33.pdf, page1 used on input line 81.
-(pdftex.def)             Requested size: 597.60199pt x 845.54323pt.
- [12 <./data/data_v33.pdf>]
-<data/data_v33.pdf, id=78, page=2, 596.90753pt x 844.83629pt>
-File: data/data_v33.pdf Graphic file (type pdf)
+<use korrigiertesDeckblatt.pdf, page 1>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf, page 2>
-Package pdftex.def Info: data/data_v33.pdf, page2 used on input line 81.
-(pdftex.def)             Requested size: 597.407pt x 845.54323pt.
-File: data/data_v33.pdf Graphic file (type pdf)
- <use data/data_v33.pdf, page 2>
-Package pdftex.def Info: data/data_v33.pdf, page2 used on input line 81.
-(pdftex.def)             Requested size: 597.407pt x 845.54323pt.
-File: data/data_v33.pdf Graphic file (type pdf)
+<use korrigiertesDeckblatt.pdf, page 1>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+ [12 <./korrigiertesDeckblatt.pdf>]
+<korrigiertesDeckblatt.pdf, id=80, page=2, 614.295pt x 869.79826pt>
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf, page 2>
-Package pdftex.def Info: data/data_v33.pdf, page2 used on input line 81.
-(pdftex.def)             Requested size: 597.407pt x 845.54323pt.
- [13 <./data/data_v33.pdf>]
-<data/data_v33.pdf, id=84, page=3, 596.99637pt x 844.83629pt>
-File: data/data_v33.pdf Graphic file (type pdf)
+<use korrigiertesDeckblatt.pdf, page 2>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page2 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf, page 3>
-Package pdftex.def Info: data/data_v33.pdf, page3 used on input line 81.
-(pdftex.def)             Requested size: 597.49591pt x 845.54323pt.
-File: data/data_v33.pdf Graphic file (type pdf)
- <use data/data_v33.pdf, page 3>
-Package pdftex.def Info: data/data_v33.pdf, page3 used on input line 81.
-(pdftex.def)             Requested size: 597.49591pt x 845.54323pt.
-File: data/data_v33.pdf Graphic file (type pdf)
+<use korrigiertesDeckblatt.pdf, page 2>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page2 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
 
-<use data/data_v33.pdf, page 3>
-Package pdftex.def Info: data/data_v33.pdf, page3 used on input line 81.
-(pdftex.def)             Requested size: 597.49591pt x 845.54323pt.
- [14 <./data/data_v33.pdf>])
+<use korrigiertesDeckblatt.pdf, page 2>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page2 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+ [13 <./korrigiertesDeckblatt.pdf>]
+<korrigiertesDeckblatt.pdf, id=100, page=3, 614.295pt x 869.79826pt>
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
+
+<use korrigiertesDeckblatt.pdf, page 3>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page3 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
+
+<use korrigiertesDeckblatt.pdf, page 3>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page3 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+File: korrigiertesDeckblatt.pdf Graphic file (type pdf)
+
+<use korrigiertesDeckblatt.pdf, page 3>
+Package pdftex.def Info: korrigiertesDeckblatt.pdf, page3 used on input line 81
+.
+(pdftex.def)             Requested size: 597.35579pt x 845.81357pt.
+ [14 <./korrigiertesDeckblatt.pdf>])
 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
@@ -2377,10 +2359,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 44412 strings out of 493029
- 1004215 string characters out of 6136234
- 1221887 words of memory out of 5000000
- 47186 multiletter control sequences out of 15000+600000
+ 44405 strings out of 493029
+ 1004220 string characters out of 6136234
+ 1220823 words of memory out of 5000000
+ 47180 multiletter control sequences out of 15000+600000
  136002 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,25n,108p,10378b,2946s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2397,10 +2379,10 @@ share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_AnalytikV3.3.pdf (15 pages, 2489136 bytes).
+Output written on 00_AnalytikV3.3.pdf (15 pages, 2797996 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
