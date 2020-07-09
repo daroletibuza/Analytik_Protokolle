@@ -8,9 +8,10 @@
 		\resizebox{0.75\textwidth}{!}{
 			\begin{tikzpicture}[trim axis left, trim axis right]
 			\begin{axis}[
+			grid,
 			axis lines = left,
-			width = 15cm,
-			height = 11cm,
+			width = 20cm,
+			height = 15cm,
 			xmin = 0,
 			xmax = 25,
 			ymin = 500,
@@ -50,16 +51,16 @@
 	\begin{center}
 		\resizebox{0.75\textwidth}{!}{
 			\begin{tikzpicture}[trim axis left, trim axis right]
-			\begin{axis}[
+			\begin{axis}[grid,
 			axis lines = left,
-			width = 15cm,
-			height = 11cm,
+			width = 20cm,
+			height = 15cm,
 			xmin = 0,
 			xmax = 12,
 			ymin = 150,
 			ymax = 400,
-			%	ytick = {-4.5,-4,...,-1},
-			xtick = {0,1,2,...,24},
+			ytick = {150,175,...,400},
+			xtick = {0,0.5,1.0,...,24},
 			ylabel={Spannung in \si{\milli \volt}},
 			%y label style={at={(0,0.5)}},
 			xlabel={Maßlösungszugabe in \si{\milli \liter}},
@@ -92,11 +93,12 @@
 	\label{tab:konduk_regress}
 		\resizebox{15cm}{!}{
 			\begin{tabulary}{1.35\textwidth}{C|CC|CC|C}
+				\hline
 				&\textbf{Regressionsgerade (links)} & \textbf{Regressionsgerade (rechts)} & \textbf{$\boldsymbol R_1^2$}& \textbf{$\boldsymbol R_2^2$}&\textbf{Äquivalenzvolumen}\\
 				\hline
-				\textbf{Messreihe 1}&$\kappa_{11} =-5,186*V+544,817$ &$\kappa_{12} =13,928*V+409,343$&0,999&1,000&\SI{7,088}{\milli \liter}\\
-				\textbf{Messreihe 2}&$\kappa_{21} =-5,071*V+545,483$&$\kappa_{22} =14,077*V+410,221$&0,999&1,000&\SI{7,064}{\milli \liter}\\
-				\textbf{Messreihe 3}&$\kappa_{31} =-4,957*V+542,750$&$\kappa_{32} =14,129*V+407,993$&0,999&1,000&\SI{7,060}{\milli \liter}\\
+				\textbf{Messreihe 1}&$\kappa_{11} =-5,186*V+544,817$ &$\kappa_{12} =13,928*V+409,343$&0,999&1,000&\SI{7,137}{\milli \liter}\\
+				\textbf{Messreihe 2}&$\kappa_{21} =-5,071*V+545,483$&$\kappa_{22} =14,077*V+410,221$&0,999&1,000&\SI{7,113}{\milli \liter}\\
+				\textbf{Messreihe 3}&$\kappa_{31} =-4,957*V+542,750$&$\kappa_{32} =14,129*V+407,993$&0,999&1,000&\SI{7,110}{\milli \liter}\\
 				\hline
 	\end{tabulary}
 }
@@ -104,25 +106,29 @@
 \FloatBarrier
 
 \textbf{Berechnung des Äquivalenzvolumens über Konduktometrie:}\\
-Es werden die jeweiligen Regressionsgeraden gleichgesetzt und nach dem Volumina umgestellt. Die Regressionsgeraden finden sich in der Tabelle \ref{tab:konduk_regress}.
+Es werden die jeweiligen Regressionsgeraden gleichgesetzt und nach dem Volumina umgestellt. Die Regressionsgeraden finden sich in der Tabelle \ref{tab:konduk_regress}.\\
+Das Äquivalenzvolumen bezieht sich auf \SI{100}{\milli \liter} Probe.
 \begin{flalign}
 		\kappa_{11}&= \kappa_{12}\\
-		m_{11}*V_{\text{äq}}+n_{11} &= m_{12}*V_{\text{äq}}+n_{12}\\
-		V_{\text{äq}}&= \frac{n_{12}-n_{11}}{m_{11}-m_{12}}\\
-		V_{\text{äq}}&= \frac{\SI{409,343}{\micro \siemens\per \centi \meter}-\SI{544,817 }{\micro \siemens\per \centi \meter}}{\SI{-5,186}{\micro \siemens\per \centi \meter\per \milli \liter}-\SI{13,928}{\micro \siemens\per \centi \meter\per \milli \liter}}\\
-	&=\underline{\SI{7,088}{\milli \liter}}
+		m_{11}*V_{\text{äq}}+n_{11} &= m_{12}*V_{\text{äq}}+n_{12}\\ 
+		V_{\text{äq}}&= \frac{n_{12}-n_{11}}{m_{11}-m_{12}}*f_{\text{korr}}\\
+		V_{\text{äq}}&= \frac{\SI{409,343}{\micro \siemens\per \centi \meter}-\SI{544,817 }{\micro \siemens\per \centi \meter}}{\SI{-5,186}{\micro \siemens\per \centi \meter\per \milli \liter}-\SI{13,928}{\micro \siemens\per \centi \meter\per \milli \liter}}*1,007\\
+	&=\underline{\SI{7,137}{\milli \liter}}
 \end{flalign}
 
 \textbf{Berechnung des Äquivalenzvolumens über Potentiometrie nach \textsc{Kolthoff-Hahn}:}
+Das Äquivalenzvolumen bezieht sich auf \SI{50}{\milli \liter} Probe.
 \begin{flalign}
-	V_{\text{äq}} &= V' + \frac{\Delta V * \left(\Delta E_\text{max}-E_\text{vor}\right)}{2*\Delta E_\text{max}-\Delta E_\text{vor}+\Delta E_\text{nach}}\\[2mm]
-								&= \SI{3,5}{\milli \liter} + \frac{\SI{0,5}{\milli \liter}*\left(\SI{56}{\milli \volt}-\SI{25}{\milli \volt}\right)}{2*\SI{56}{\milli \volt}-\SI{25}{\milli\volt}+\SI{25}{\milli \volt}}\\
-								&=\underline{\SI{3,638}{\milli \liter}}
+	V_{\text{äq}} &= \left(V' + \frac{\Delta V * \left(\Delta E_\text{max}-E_\text{vor}\right)}{2*\Delta E_\text{max}-\Delta E_\text{vor}+\Delta E_\text{nach}}\right)*f_\text{korr}\\[2mm]
+								&= \left(\SI{3,5}{\milli \liter} + \frac{\SI{0,5}{\milli \liter}*\left(\SI{56}{\milli \volt}-\SI{25}{\milli \volt}\right)}{2*\SI{56}{\milli \volt}-\SI{25}{\milli\volt}+\SI{25}{\milli \volt}}\right)*1,007\\
+								&=\underline{\SI{3,664}{\milli \liter}}
 \end{flalign}
 
-\textbf{Berechnung des Chlor-Gehaltes:}
+\textbf{Berechnung des Chloridgehaltes:}
 \begin{flalign}
-	\beta &= \frac{Zähler}{Nenner}
+	\beta_{\ce{Cl}} &= \frac{V_{\text{äq}}*f_\text{stöch}}{V_\text{Probe}}\\[1mm]
+	\beta_{\ce{Cl},1,\text{kondukt.}}&= \frac{\SI{7,137}{\milli \liter}*\SI{0,35453}{\milli \gram \per \milli \liter}}{\SI{100}{\milli \liter}}\\[1mm]
+	&=\underline{\SI{25,304}{\milli \gram \per \milli \liter}}
 \end{flalign}
 
 \textbf{Berechnung des Mittelwertes:}
@@ -132,9 +138,33 @@ Es werden die jeweiligen Regressionsgeraden gleichgesetzt und nach dem Volumina 
 \end{flalign}
 \begin{flalign}
 \label{Gl:Mittelwert-Beispielrechnung2}
-\bar{x} &= \frac{\SI{25,128}{\milli \gram \per \liter}+\SI{25,044}{\milli \gram \per \liter}+\SI{25,031}{\milli \gram \per \liter}}{3}\\
-&= \underline{\SI{25,068}{\milli \gram \per \liter}}
+\bar{x} &= \frac{\SI{25,304}{\milli \gram \per \liter}+\SI{25,219}{\milli \gram \per \liter}+\SI{25,206}{\milli \gram \per \liter}}{3}\\
+&= \underline{\SI{25,243}{\milli \gram \per \liter}}
 \end{flalign}
+\newpage
+
+% Table generated by Excel2LaTeX from sheet 'Daten'
+\begin{table}[h!]
+	\renewcommand*{\arraystretch}{1.2}
+	\centering
+	\caption{Zusammengefasste Äquivalenzvolumina und Chloridgehalte der Konduktometrie und der Potentiometrie}
+	\label{tab:zusammen}
+		%\resizebox{10.5cm}{!}{
+			\begin{tabulary}{1.0\textwidth}{C|CC|CC}
+				\hline
+				&\multicolumn{2}{c}{\textbf{Konduktometrie}}&\multicolumn{2}{c}{\textbf{Potentiometrie}}\\
+				\hline
+				& \textbf{$V_\text{äq}$ in $\left[\si{\milli \liter}\right]$}& \textbf{$\beta_{\ce{Cl}}$ in $\left[\si{\milli \gram \per \liter}\right]$} &\textbf{$V_\text{äq}$ in $\left[\si{\milli \liter}\right]$}& \textbf{$\beta_{\ce{Cl}}$ in $\left[\si{\milli \gram \per \liter}\right]$} \\
+				\hline
+				\textbf{Messreihe 1}&7,137&25,304&3,664&25,979\\
+				\textbf{Messreihe 2}&7,113&25,219&3,646&25,855\\
+				\textbf{Messreihe 3}&7,110&25,206&3,659&25,943\\
+				\hline
+				\textbf{Mittelwert}&7,120&25,243&6,656&25,926\\
+	\end{tabulary}
+%}
+\end{table}%
+\FloatBarrier
 
 \textbf{Berechnung der Standardabweichung:}
 \begin{flalign}\label{Gl:Standardabweichung-Beispielrechnung}
@@ -142,17 +172,27 @@ s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}
 \end{flalign}
 %	\begin{footnotesize}
 \begin{flalign}
-s &= \sqrt{\frac{(\SI{25,128}{\milli \gram \per\liter}-\SI{25,068}{\milli \gram \per \liter})^2+(\SI{25,044}{\milli \gram \per\liter}-\SI{25,068}{\milli \gram \per \liter})^2+(\SI{25,031}{\milli \gram \per \liter}-\SI{25,068}{\milli \gram \per \liter})^2}{2}}\\
-&= \underline{\SI{5,298e-2}{\milli \gram \per\liter}}
+s &= \sqrt{\frac{(\SI{25,304}{\milli \gram \per\liter}-\SI{25,243}{\milli \gram \per \liter})^2+(\SI{25,219}{\milli \gram \per\liter}-\SI{25,243}{\milli \gram \per \liter})^2+(\SI{25,206}{\milli \gram \per \liter}-\SI{25,243}{\milli \gram \per \liter})^2}{2}}\\
+&= \underline{\SI{5,335e-2}{\milli \gram \per\liter}}
 \end{flalign}
 %	\end{footnotesize}
-\newpage
 
 \textbf{Berechnung des Vertrauensintervalls:}\\
 \begin{flalign}
 conf(\bar{x}) 	&= \bar{x}\pm \frac{t}{\sqrt{N}}*s				
 \end{flalign}
 \begin{flalign}
-conf(\bar{x})	&= \SI{25,068}{\milli \gram \per \liter}\pm \frac{2,920}{\sqrt{3}}*\SI{5,298e-2}{\milli \gram \per \liter}\\
-&= \underline{\SI{25,068}{\milli \gram \per \liter}\pm\SI{8,932e-2}{\milli \gram \per \liter}}
+conf(\bar{x})	&= \SI{25,243}{\milli \gram \per \liter}\pm \frac{2,920}{\sqrt{3}}*\SI{5,335e-2}{\milli \gram \per \liter}\\
+&= \underline{\SI{25,243}{\milli \gram \per \liter}\pm\SI{8,994e-2}{\milli \gram \per \liter}}
+\end{flalign}
+
+\textbf{Grenzwerttest:}
+\begin{flalign}
+	t_\text{emp} &= \frac{\bar{x}-x_\text{Grenz}}{s}*\sqrt{N}\\
+								&=\frac{\SI{25,243}{\milli \gram \per \liter}-\SI{250}{\milli \gram \per \liter}}{\SI{5,335e-02}{\milli \gram \per \liter}}*\sqrt{3}\\
+								&=\underline{\SI{-7,297e+03}{}}
+\end{flalign}
+\begin{flalign}
+	t_\text{emp} &< -t_\text{crit}\\ \tag*{wahre Aussage}
+	\SI{-7,297e+03}{} &< -2,920 
 \end{flalign}
