@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  9 JUL 2020 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  9 JUL 2020 10:49
 entering extended mode
 **./00_AnalytikV1.2.tex
 (00_AnalytikV1.2.tex
@@ -1432,100 +1432,58 @@ r-gen-to-me-trie auf die-sen
  []
 
 ) (04_physik.tex
-Underfull \hbox (badness 2744) in paragraph at lines 5--6
-\T1/lmr/m/n/10.95 Die in die-sem Ver-such an-ge-wen-de-te Art der Ti-tra-ti-on 
-ist ei-ne Re-dox-ti-tra-ti-on.
- []
 
-) (04_geraete.tex [2] [3]
+LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
+(Font)              using `T1/lmss/bx/n' instead on input line 18.
+
+) (04_geraete.tex [2]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
 .
  ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-(05_durchfuerung.tex)
-Underfull \hbox (badness 1331) in paragraph at lines 3--213
-\T1/lmr/m/n/10.95 Im zwei-ten Ver-suchs-teil wür-de nun ei-ne Fest-stoff-pro-be
- über die Ofen-tech-nik der
- []
-
-(06_ergebnisse.tex [4]
-Overfull \hbox (4.09787pt too wide) in paragraph at lines 37--37
- []\T1/lmr/m/n/10.95 8,36%| 
- []
-
-
-Overfull \hbox (0.76677pt too wide) in paragraph at lines 71--71
- []\T1/lmr/m/n/10.95 0,00925| 
- []
-
-
-Overfull \hbox (3.83398pt too wide) in paragraph at lines 71--71
- []\T1/lmr/m/n/10.95 138,55%| 
- []
-
+(05_durchfuerung.tex) (06_ergebnisse.tex [3]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5] [6]
-Underfull \hbox (badness 4242) in paragraph at lines 189--192
+[4]
+Underfull \hbox (badness 4242) in paragraph at lines 114--117
 \T1/lmr/m/n/10.95 Die ma-nu-el-le Be-rech-nung der re-la-ti-ven Stan-dard-ab-we
 i-chung er-folgt ana-log der
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 207--214
-\T1/lmr/m/n/10.95 Beispielhaft wird nach-fol-gend in Glei-chung (11) die ma-nu-
+LaTeX Warning: Reference `tab:MesswerteIsopropanol' on page 6 undefined on inpu
+t line 133.
+
+
+LaTeX Warning: Reference `tab:MesswerteTiterbestimmung' on page 6 undefined on 
+input line 133.
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 132--139
+\T1/lmr/m/n/10.95 Beispielhaft wird nach-fol-gend in Glei-chung (12) die ma-nu-
 el-le Be-rech-nung des
  []
 
-) (07_diskussion.tex [7]
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
-
- []
-
-) (011_fehlerbetrachtung.tex [8])
-Underfull \hbox (badness 2762) in paragraph at lines 14--219
-[]\T1/lmr/m/n/10.95 Insgesamt ist es rat-sam den Ver-such er-neut durch-zu-füh-
-ren, um die mög-li-chen
- []
-
-[9]
+) (07_diskussion.tex [6]) (011_fehlerbetrachtung.tex) [7]
 \openout2 = `09_anhang.aux'.
 
  (09_anhang.tex)
 \openout2 = `08_literatur.aux'.
 
- (08_literatur.tex (00_AnalytikV1.2.bbl
-Underfull \hbox (badness 1297) in paragraph at lines 25--30
-[]\T1/lmr/m/sc/10.95 Dickenhorst\T1/lmr/m/n/10.95 , B.:  \T1/lmr/m/it/10.95 Bia
-m-pe-ro-me-trie\T1/lmr/m/n/10.95 .  $http : / / www . bdsoft . de / demo / inde
-x . htm ?
- []
 
+(08_literatur.tex (00_AnalytikV1.2.bbl
 
-Underfull \hbox (badness 5008) in paragraph at lines 44--49
-[]\T1/lmr/m/sc/10.95 Sigma-Aldrich\T1/lmr/m/n/10.95 :  \T1/lmr/m/it/10.95 Iso-p
-ro-pa-nol, was-ser-frei, 99.5%, 2l | analytics-shop.com\T1/lmr/m/n/10.95 .
- []
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 10.
 
-
-Underfull \hbox (badness 3364) in paragraph at lines 65--71
-[]\T1/lmr/m/sc/10.95 Polymer Ser-vice GmbH Mer-se-burg\T1/lmr/m/n/10.95 :  \T1/
-lmr/m/it/10.95 Was-ser-auf-nah-me -- Le-xi-kon der
- []
-
-)) [10
+)) [8
 
 
 
@@ -1536,27 +1494,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
 (00_AnalytikV1.2.aux (01_titel.aux) (09_anhang.aux) (08_literatur.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 226.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 39143 strings out of 480790
- 911850 string characters out of 2907059
- 1411090 words of memory out of 3000000
- 54360 multiletter control sequences out of 15000+200000
- 623130 words of font info for 79 fonts, out of 3000000 for 9000
+ 39600 strings out of 480790
+ 925582 string characters out of 2907059
+ 1526547 words of memory out of 3000000
+ 54825 multiletter control sequences out of 15000+200000
+ 612881 words of font info for 76 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,23n,103p,10112b,1195s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.6} has been referenced but does not exis
+ 75i,22n,111p,10112b,2628s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.9} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
 replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.1} has been referenced but does not ex
-ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
 replaced by a fixed one
@@ -1570,41 +1529,30 @@ replaced by a fixed one
 pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.2.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
 pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
 replaced by a fixed one
 
 pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
 replaced by a fixed one
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/
-fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm
--mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
-iles/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
-ips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX
+/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm
+.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program File
+s/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
+ips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public
-/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
-mmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_AnalytikV1.2.pdf (11 pages, 551967 bytes).
+TeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
+mr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 00_AnalytikV1.2.pdf (9 pages, 491711 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
