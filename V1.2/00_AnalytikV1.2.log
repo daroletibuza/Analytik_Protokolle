@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  9 JUL 2020 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  9 JUL 2020 16:35
 entering extended mode
 **./00_AnalytikV1.2.tex
 (00_AnalytikV1.2.tex
@@ -1442,49 +1442,37 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
  ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-(05_durchfuerung.tex) (06_ergebnisse.tex [3]
+(05_durchfuerung.tex) (06_ergebnisse.tex [3] [4]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 116.
 
-[4]
-Underfull \hbox (badness 4242) in paragraph at lines 114--117
-\T1/lmr/m/n/10.95 Die ma-nu-el-le Be-rech-nung der re-la-ti-ven Stan-dard-ab-we
-i-chung er-folgt ana-log der
+
+LaTeX Warning: Command \" invalid in math mode on input line 126.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 126.
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-
-LaTeX Warning: Reference `tab:MesswerteIsopropanol' on page 6 undefined on inpu
-t line 133.
-
-
-LaTeX Warning: Reference `tab:MesswerteTiterbestimmung' on page 6 undefined on 
-input line 133.
-
-
-Underfull \hbox (badness 4036) in paragraph at lines 132--139
-\T1/lmr/m/n/10.95 Beispielhaft wird nach-fol-gend in Glei-chung (12) die ma-nu-
-el-le Be-rech-nung des
- []
-
-) (07_diskussion.tex [6]) (011_fehlerbetrachtung.tex) [7]
+) (07_diskussion.tex [7]) (011_fehlerbetrachtung.tex) [8]
 \openout2 = `09_anhang.aux'.
 
  (09_anhang.tex)
+[9
+
+] [10]
 \openout2 = `08_literatur.aux'.
 
-
-(08_literatur.tex (00_AnalytikV1.2.bbl
+ (08_literatur.tex (00_AnalytikV1.2.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
 
-)) [8
-
+)) [11
 
 
 ] 
@@ -1498,21 +1486,21 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 226.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 39600 strings out of 480790
- 925582 string characters out of 2907059
- 1526547 words of memory out of 3000000
- 54825 multiletter control sequences out of 15000+200000
- 612881 words of font info for 76 fonts, out of 3000000 for 9000
+ 39633 strings out of 480790
+ 925881 string characters out of 2907059
+ 1475567 words of memory out of 3000000
+ 54850 multiletter control sequences out of 15000+200000
+ 623683 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,22n,111p,10112b,2628s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.9} has been referenced but does not exis
-t, replaced by a fixed one
+pdfTeX warning (dest): name{section*.13} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.10} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
 replaced by a fixed one
@@ -1535,9 +1523,9 @@ replaced by a fixed one
 pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
 replaced by a fixed one
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX
-/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm
-.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program File
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiK
+TeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/l
+m-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program File
 s/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
 ips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiK
@@ -1545,14 +1533,15 @@ TeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/f
 onts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
-mr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb
-><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_AnalytikV1.2.pdf (9 pages, 491711 bytes).
+mmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/lm/lmsy8.pfb>
+Output written on 00_AnalytikV1.2.pdf (12 pages, 498112 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
