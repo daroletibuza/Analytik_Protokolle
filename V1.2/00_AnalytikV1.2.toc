@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
 \contentsline {section}{\numberline {2}Theorie}{2}{section.2}
@@ -8,3 +9,15 @@
 \contentsline {section}{\numberline {7}Fehlerbetrachtung}{9}{section.7}
 \contentsline {section}{Anhang}{10}{section*.11}
 \contentsline {section}{Literaturverzeichnis}{14}{section*.14}
+=======
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
+\contentsline {section}{\numberline {2}Theorie}{2}{section.2}%
+\contentsline {section}{\numberline {3}Geräte und Chemikalien}{4}{section.3}%
+\contentsline {section}{\numberline {4}Durchführung}{4}{section.4}%
+\contentsline {section}{\numberline {5}Ergebnisse und Berechnungen}{5}{section.5}%
+\contentsline {section}{\numberline {6}Diskussion}{8}{section.6}%
+\contentsline {section}{\numberline {7}Fehlerbetrachtung}{8}{section.7}%
+\contentsline {section}{Anhang}{9}{section*.11}%
+\contentsline {section}{Literaturverzeichnis}{12}{section*.14}%
+>>>>>>> Versuch1.2
