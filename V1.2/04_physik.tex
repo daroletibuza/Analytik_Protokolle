@@ -1,27 +1,40 @@
 \section{Theorie}
 \label{sec:theorie}
-\subsection*{Löslichkeitsprodukt}
+Für die Bestimmung des Äquivalenzpunktes einer argentometrischen Fällungstitration kann auf die Methodiken der Konduktometrie oder der Potentiometrie gesetzt werden. Hierbei werden sprunghafte Änderungen der Leitfähigkeit oder des gemessenen Potentials genutzt um den Äquivalenzpunkt zu bestimmen. Mit Hilfe dieses Punktes ist es beispielsweise möglich den Gehalt von Chlorid in einer Wasserprobe zu bestimmen.
+
+\subsection*{Löslichkeit und Löslichkeitsprodukt}
+Das Löslichkeitsprodukt $K_L$ ist das Produkt der Aktivitäten des zu untersuchenden Salzes in einer gesättigten Elektrolytlösung. Es ist abhängig von Druck, Temperatur und der Art des Lösemittels. Berechnet werden kann mit der folgenden Gleichung:
 \textbf{Löslichkeitsprodukt:}
 \begin{flalign}
-	K_L &= c\left(A^{b+}\right)^a*c\left(A^{a-}\right)^b
+	K_L &= \gamma\left(A^{b+}\right)^a*\gamma\left(A^{a-}\right)^b\\
 \end{flalign}
-
+Die Löslichkeit $L$ beschreibt die temperaturabhängige Eigenschaft eines Stoffes sich homogen in einer Flüssigkeit aufzulösen.
 \textbf{Löslichkeit:}
  \begin{flalign}
- 	L &= c\left(A_mB_n\right) = \frac{1}{m}*A^{n+} =\frac{1}{n}*B^{m-}
+ 	L &= \gamma\left(A_mB_n\right) = \frac{1}{m}*A^{n+} =\frac{1}{n}*B^{m-}
  \end{flalign}
- Allgemein gilt auch:
+Die Löslichkeit eines Salzes kann aus dem Löslichkeitsprodukt $K_L$ berechnet werden.
  \begin{flalign}
  	L &= \sqrt[m+n]{\frac{K_L}{m^m*n^n}}
  \end{flalign}
+ 
+ \newpage
 
 \subsection*{\textsc{Nernst}'sche Gleichung}
+Die \textsc{Nernst}'sche Gleichung beschreibt das Potential einer Elektrode, bei welcher das Redoxsystem an der Elektrode potentialbestimmend ist. Sie kann für die Erklärung des Lösungsdrucks von Metallen, Redoxpotentialen, des pH-Wertes oder der Theorie der Elektrolyse herangezogen werden. \cite{Holze.2008}
 \begin{flalign}
-	E &= E_0 + \frac{R*T}{z*F}*\ln\left({\frac{c_\text{ox}}{c_\text{red}}}\right)
+	E &= E_0 + \frac{R*T}{z*F}*\ln\left({\frac{\gamma_\text{ox}}{\gamma_\text{red}}}\right)
 \end{flalign}
 
 \subsection*{Konduktometrie}
+Die Konduktometrie beschreibt elektro-analytische Methoden zur Verfolgung von Reaktionsabläufen. Dies erfolgt durch die Messung der elektrischen Leitfähigkeit $\kappa$, welche abhängig ist von der Ladung und der Konzentration an freibeweglichen Ionen. Hierfür werden an zwei gleiche Elektroden eine Wechselspannung angelegt und diese mit der zu untersuchenden Lösung in Kontakt gebracht. Ein hochohmiges Messgerät ist nun in der Lage die elektrische Leitfähigkeit der Lösung zu bestimmen.\\
+In der Konduktometrie ergibt sich das Sinken der Leitfähigkeit aus der Reaktion der Maßlösung mit der Analysenlösungen, welche der Lösung freibewegliche Ionen entzieht. Nach dem Erreichen des Äquivalenzvolumens steigt die elektrische Leitfähigkeit wieder aufgrund der Zunahme an freibeweglichen Ionen der Maßlösung, welche nicht mehr aufgrund des fehlenden Analyten abreagieren können.\cite{Holze.2012}\\
+Das Äquivalenzvolumen lässt sich am Tiefpunkt des aufgezeichneten Graphen feststellen.
 
 \subsection*{Potentiometrie}
+Bei der Potentiometrie handelt es sich ebenfalls um elektro-analytische Verfahren, welche jedoch im Gegensatz zu Konduktometrie, Rückschlüsse auf die Aktivitäten von Komponenten in  einer Elektrolytlösung zulässt. Hierfür wird mittels Indikator- und Referenzelektrode stromlos das Potential der Lösung während der Titration mit einer Maßlösung gemessen. Die angezeigte Potentialdifferenz, welche schlussendlich angezeigt wird, setzt sich dabei aus dem bekannten Elektrodenpotential der Referenzelektrode und dem Elektrodenpotential an der Indikatorelektrode zusammen. Da sich die Konzentration von Ionen und mit ihr die Potentialdifferenz am Äquivalenz Punkt signifikant ändert (siehe \textsc{Nernst}'sche Gleichung), lässt sich über diesen Wendepunkt das Äquivalenzvolumen bestimmen. Dieser Punkt beschreibt den Endpunkt der Titration und kann rechnerisch beispielsweise über die \textsc{Kolthoff-Hahn}-Gleichung bestimmt werden.\cite{Brehm.2007}
 
 \subsection*{Biamperometrische und bivoltametrische Indikation}
+Die bivoltametrische Indikation beschreibt die Messung der Spannung über einer konstanten Stromstärke. Die amperometrische Indikation hingegen erfolgt durch die Messung der Stromstärke über einer konstanten Spannung. In beiden Fällen handelt es sich hierbei um die Indikation mittels stromdurchflossenen Elektroden. Gerade wenn die Potentiometrie nicht ausreichend für die Untersuchung ist, beispielsweise aufgrund von gehemmten Elektrodenkreaktionen, kann mit diesen Methodiken dennoch eine Indikation erfolgen.\\
+In beiden Fällen der Indikation ist die Auswertung der Messdaten mittels \textit{Knickpunktverfahren} möglich. Alternative grafische Methoden sind unter den Bezeichnungen \textit{Kreismethode nach Tubbs}, \textit{Tangentenmethode} oder \textit{differenzierte Titrationskurve} zu finden.
+
