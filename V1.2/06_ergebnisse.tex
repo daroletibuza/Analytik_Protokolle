@@ -125,7 +125,7 @@ Das Äquivalenzvolumen bezieht sich auf \SI{50}{\milli \liter} Probe.
 \end{flalign}
 
 \textbf{Berechnung des Chloridgehaltes:}
-\begin{flalign}
+\begin{flalign}\label{Gl:Chloridgehalt}
 	\beta_{\ce{Cl}} &= \frac{V_{\text{äq}}*f_\text{stöch}}{V_\text{Probe}}\\[1mm]
 	\beta_{\ce{Cl},1,\text{kondukt.}}&= \frac{\SI{7,137}{\milli \liter}*\SI{0,35453}{\milli \gram \per \milli \liter}}{\SI{100}{\milli \liter}}\\[1mm]
 	&=\underline{\SI{25,304}{\milli \gram \per \milli \liter}}
@@ -167,22 +167,22 @@ Das Äquivalenzvolumen bezieht sich auf \SI{50}{\milli \liter} Probe.
 \FloatBarrier
 
 \textbf{Berechnung der Standardabweichung:}
-\begin{flalign}\label{Gl:Standardabweichung-Beispielrechnung}
-s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}
+\begin{flalign}
+s &= \sqrt{\frac{\sum_{n=1}^{N}(x_n-\bar{x})^2}{N-1}}\notag
 \end{flalign}
 %	\begin{footnotesize}
-\begin{flalign}
-s &= \sqrt{\frac{(\SI{25,304}{\milli \gram \per\liter}-\SI{25,243}{\milli \gram \per \liter})^2+(\SI{25,219}{\milli \gram \per\liter}-\SI{25,243}{\milli \gram \per \liter})^2+(\SI{25,206}{\milli \gram \per \liter}-\SI{25,243}{\milli \gram \per \liter})^2}{2}}\\
+\begin{flalign}\label{Gl:Standardabweichung-Beispielrechnung}
+&= \sqrt{\frac{(\SI{25,304}{\milli \gram \per\liter}-\SI{25,243}{\milli \gram \per \liter})^2+(\SI{25,219}{\milli \gram \per\liter}-\SI{25,243}{\milli \gram \per \liter})^2+(\SI{25,206}{\milli \gram \per \liter}-\SI{25,243}{\milli \gram \per \liter})^2}{2}}\\
 &= \underline{\SI{5,335e-2}{\milli \gram \per\liter}}
 \end{flalign}
 %	\end{footnotesize}
 
 \textbf{Berechnung des Vertrauensintervalls:}\\
 \begin{flalign}
-conf(\bar{x}) 	&= \bar{x}\pm \frac{t}{\sqrt{N}}*s				
-\end{flalign}
-\begin{flalign}
-conf(\bar{x})	&= \SI{25,243}{\milli \gram \per \liter}\pm \frac{2,920}{\sqrt{3}}*\SI{5,335e-2}{\milli \gram \per \liter}\\
+conf(\bar{x}) 	&= \bar{x}\pm \frac{t}{\sqrt{N}}*s	\\	
+%\end{flalign}
+%\begin{flalign}
+	&= \SI{25,243}{\milli \gram \per \liter}\pm \frac{2,920}{\sqrt{3}}*\SI{5,335e-2}{\milli \gram \per \liter}\\
 &= \underline{\SI{25,243}{\milli \gram \per \liter}\pm\SI{8,994e-2}{\milli \gram \per \liter}}
 \end{flalign}
 
@@ -195,4 +195,10 @@ conf(\bar{x})	&= \SI{25,243}{\milli \gram \per \liter}\pm \frac{2,920}{\sqrt{3}}
 \begin{flalign}
 	t_\text{emp} &< -t_\text{crit}\\ \tag*{wahre Aussage}
 	\SI{-7,297e+03}{} &< -2,920 
+\end{flalign}
+
+\textbf{Relative Standardabweichung:}
+\begin{flalign}
+s_{rel}&=\frac{s}{\bar{x}}\\
+&=\frac{\SI{5,335e-2}{\milli \gram \per\liter}}{\SI{25,243}{\milli \gram \per \liter}}=\underline{0,002}
 \end{flalign}
